@@ -4,11 +4,13 @@
 
 <instance-profile id="in"
                  name="程序员日记"
-                 start-page="20240723.md">
+                 start-page="Hello-World！.md">
 
+    <toc-element topic="20240727.md"/>
     <toc-element topic="20240726.md"/>
     <toc-element topic="20240725.md"/>
     <toc-element topic="20240724.md">
     </toc-element>
     <toc-element topic="20240723.md"/>
+    <toc-element topic="Hello-World！.md"/>
 </instance-profile>
