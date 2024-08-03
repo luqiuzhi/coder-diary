@@ -6,6 +6,7 @@
                  name="程序员日记"
                  start-page="Hello-World！.md">
 
+    <toc-element topic="20240803.md"/>
     <toc-element topic="20240802.md"/>
     <toc-element topic="20240801.md"/>
     <toc-element topic="20240731.md">
