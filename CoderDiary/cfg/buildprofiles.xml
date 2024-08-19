@@ -12,5 +12,10 @@
             <copyright>2024 LuQiuzhi</copyright>
         </footer>
     </build-profile>
+    <build-profile instance="movie">
+        <variables>
+            <noindex-content>false</noindex-content>
+        </variables>
+    </build-profile>
 
 </buildprofiles>

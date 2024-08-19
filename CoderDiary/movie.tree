@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="movie"
+                 name="影视分享"
+                 start-page="影视分享.md">
+
+    <toc-element topic="影视分享.md"/>
+    <toc-element topic="《血战钢锯岭》.md"/>
+</instance-profile>
