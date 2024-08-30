@@ -2,7 +2,7 @@
 
 ## 什么是GraphQL？
 
-`GraphQL` 是一种新的API标准，并且该标准本身是建立 `REST` 类型的基础之上的。
+`GraphQL` 是一种新的API标准，并且该标准本身是建立 `REST` 基础之上的。
 
 借助官网对`GraphQL`的描述：
 
