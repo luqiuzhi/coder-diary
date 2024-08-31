@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="digital-share"
+                 name="数码分享"
+                 start-page="数码分享.md">
+
+    <toc-element topic="近期购入的数码产品.md"/>
+    <toc-element topic="数码分享.md"/>
+</instance-profile>
