@@ -25,7 +25,7 @@
 
 ![网易云首页.jpg](网易云首页.jpg) { thumbnail="true" width="321" }
 
-上面是网易云APP的首页，看起来界面比较 ~~复杂~~ 简洁，但其实首页锁请求的数据可不少。
+上面是网易云APP的首页，看起来界面比较 ~~复杂~~ 简洁，但其实首页请求的数据可不少。
 
 首页大致可以分为以下区域：
 
@@ -74,11 +74,11 @@
 
 在博客首页渲染的过程中，往往会通过调用三个服务端接口并在前端组装的形式来呈现完整的页面：
 
-![blog-app.png](blog-app.png)
+![blog-app.png](blog-app.png) { thumbnail="true" }
 
 而通过`GraphQL`可以实现以下效果：
 
-![blog-grapg.png](blog-graph.png)
+![blog-grapg.png](blog-graph.png){ thumbnail="true" }
 
 直观地来看，`GraphQL`位于客户端和服务端中间，相当于增加了一层数据处理。同时接口的请求数量也从三个下降至一个。
 
