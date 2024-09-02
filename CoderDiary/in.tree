@@ -6,6 +6,8 @@
                  name="我在人间当码农的日子"
                  start-page="Hello-World.md">
 
+    <toc-element topic="JVM的运行时内存区域.md"/>
+    <toc-element topic="程序员可以看哪些资讯网站？.md"/>
     <toc-element topic="Kotlin中的空指针安全.md"/>
     <toc-element topic="Kotlin中的面向对象.md"/>
     <toc-element topic="程序员的“新闻网站”横向对比.md"/>

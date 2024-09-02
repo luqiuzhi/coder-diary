@@ -1,0 +1,138 @@
+<mxfile host="Electron" modified="2024-09-02T14:29:17.137Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.5.3 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="PS7Neq0gM9aFUoPeqeuh" version="24.5.3" type="device" pages="2">
+  <diagram name="第 1 页" id="6Zq_GDURMOx_zTkUIO2I">
+    <mxGraphModel dx="1512" dy="859" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1600" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ax38BUrKAsP0cJQI4epL-5" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;arcSize=2;" vertex="1" parent="1">
+          <mxGeometry x="660" y="420" width="300" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax38BUrKAsP0cJQI4epL-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;arcSize=5;" vertex="1" parent="1">
+          <mxGeometry x="670" y="460" width="120" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax38BUrKAsP0cJQI4epL-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;arcSize=5;" vertex="1" parent="1">
+          <mxGeometry x="830" y="460" width="120" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax38BUrKAsP0cJQI4epL-6" value="线程私有" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="780" y="420" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax38BUrKAsP0cJQI4epL-7" value="线程1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="700" y="460" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax38BUrKAsP0cJQI4epL-8" value="线程2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="860" y="460" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax38BUrKAsP0cJQI4epL-9" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;arcSize=5;" vertex="1" parent="1">
+          <mxGeometry x="660" y="310" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax38BUrKAsP0cJQI4epL-10" value="线程共享" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="780" y="310" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax38BUrKAsP0cJQI4epL-11" value="虚拟机栈" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="490" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax38BUrKAsP0cJQI4epL-12" value="本地方法栈" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="680" y="570" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax38BUrKAsP0cJQI4epL-13" value="程序计数器" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="680" y="650" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax38BUrKAsP0cJQI4epL-14" value="本地方法栈" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="840" y="570" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax38BUrKAsP0cJQI4epL-15" value="虚拟机栈" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="840" y="490" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax38BUrKAsP0cJQI4epL-16" value="程序计数器" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="840" y="650" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax38BUrKAsP0cJQI4epL-17" value="虚拟机栈" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="680" y="490" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax38BUrKAsP0cJQI4epL-18" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="680" y="340" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax38BUrKAsP0cJQI4epL-19" value="堆区" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="355" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax38BUrKAsP0cJQI4epL-20" value="字符串常量池" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="810" y="350" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax38BUrKAsP0cJQI4epL-21" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;arcSize=5;" vertex="1" parent="1">
+          <mxGeometry x="660" y="730" width="300" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax38BUrKAsP0cJQI4epL-22" value="本地内存" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="780" y="730" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax38BUrKAsP0cJQI4epL-23" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="680" y="760" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax38BUrKAsP0cJQI4epL-24" value="元空间" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="775" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax38BUrKAsP0cJQI4epL-25" value="运行时常量池" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="810" y="770" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ax38BUrKAsP0cJQI4epL-28" value="直接内存" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="680" y="840" width="260" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="6tpqzPemMbu99zBt_Q3F" name="虚拟机栈">
+    <mxGraphModel dx="1253" dy="712" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1600" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SBo9ovMHC_ogszAzefpE-1" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=5;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="120" y="120" width="160" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="SBo9ovMHC_ogszAzefpE-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="130" y="130" width="140" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="SBo9ovMHC_ogszAzefpE-3" value="局部变量表" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="140" y="170" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SBo9ovMHC_ogszAzefpE-4" value="当前栈帧" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="130" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SBo9ovMHC_ogszAzefpE-5" value="操作栈" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="140" y="220" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SBo9ovMHC_ogszAzefpE-6" value="动态链接" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="140" y="270" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SBo9ovMHC_ogszAzefpE-7" value="返回地址" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="140" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SBo9ovMHC_ogszAzefpE-8" value="栈帧n" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="130" y="390" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SBo9ovMHC_ogszAzefpE-9" value="……" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="430" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SBo9ovMHC_ogszAzefpE-10" value="栈帧2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="130" y="470" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SBo9ovMHC_ogszAzefpE-11" value="栈帧1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="130" y="520" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SBo9ovMHC_ogszAzefpE-12" value="栈" style="rounded=1;whiteSpace=wrap;html=1;arcSize=5;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="290" y="120" width="50" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="SBo9ovMHC_ogszAzefpE-13" value="栈" style="rounded=1;whiteSpace=wrap;html=1;arcSize=5;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="350" y="120" width="50" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="SBo9ovMHC_ogszAzefpE-14" value="线程1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SBo9ovMHC_ogszAzefpE-15" value="线程2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="285" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SBo9ovMHC_ogszAzefpE-16" value="线程3" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="345" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
