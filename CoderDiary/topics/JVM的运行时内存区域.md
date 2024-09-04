@@ -36,7 +36,7 @@
 
 程序每进入一个方法，就往栈中压入（栈增加元素一般成为压入）一个栈帧，每跳出一个方法(执行完毕或return)就从栈中弹出（栈删除元素一般成为弹出）一个栈帧。
 
-虚拟机栈由 ***栈帧*** 组成，每一个栈帧中都保存了局部变量表、操作栈、动态链接和返回地址。
+虚拟机栈由 ***栈帧*** 组成，栈帧是用于支持JVM进行方法调用和执行的数据结构。每一个栈帧中都保存了局部变量表、操作栈、动态链接和返回地址。
 
 ![code-diary-虚拟机栈.drawio.svg](code-diary-虚拟机栈.drawio.svg) {thumbnail="true"}
 
@@ -60,6 +60,15 @@
 - ~~returnAddress~~
 
 > 上面的`returnAddress`被删除的原因是从class编译版本号51开始，JVM的规范中就禁用了`jsr,jsr_w,ret`三个指令，所以`returnAddress`也就不常见到了。
+> 
+> `returnAddress`的作用我理解是保存一个字节码的地址，之所以在旧版本中需要这个类型是因为`finally`这个关键字。一个`finally`关键字可以对应多个`catch`，
+> 在早期的编译器版本中为了复用`finally`生成的字节码，在不同的`catch`的字节码下面使用同一个`returnAddress`指向`finally`的字节码。类似`goto`语句的作用。
+> 后面为了降低复杂度，去掉了与之相关的`jsr,jsr_w,ret`三个指令，新的实现方式简单粗暴，就是在每一个`catch`后面都生成一份`finally`的字节码。
 >
+> 可以参考R大的回答：<a href="https://www.zhihu.com/question/29056872/answer/43049999">JVM jsr和ret指令始终理解不了？returnAddress又怎么理解呢？ - RednaxelaFX的回答 - 知乎</a>
+> 
 > 关于这个问题在StackOverflow上还有一个小小讨论：<a href="https://stackoverflow.com/questions/57753497/what-does-at-returnaddress-mean-in-jvm">What does `at ReturnAddress` mean in JVM?</a> 
 
+按照官方的JVM规范，对局部变量表的定义其实是`an array of variables`，也就是数组。
+
+局部变量表的容量规定在JVM规范中并没有明确说明，但是JVM规范仍然给出了定义，使用`Slot`进行存储，但是`Slot`的具体大小（多少字节）由虚拟机自行决定。
