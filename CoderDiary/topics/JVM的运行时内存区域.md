@@ -64,11 +64,13 @@
 > `returnAddress`的作用我理解是保存一个字节码的地址，之所以在旧版本中需要这个类型是因为`finally`这个关键字。一个`finally`关键字可以对应多个`catch`，
 > 在早期的编译器版本中为了复用`finally`生成的字节码，在不同的`catch`的字节码下面使用同一个`returnAddress`指向`finally`的字节码。类似`goto`语句的作用。
 > 后面为了降低复杂度，去掉了与之相关的`jsr,jsr_w,ret`三个指令，新的实现方式简单粗暴，就是在每一个`catch`后面都生成一份`finally`的字节码。
+> 
+> 简单来说，returnAddress是用于方法执行过程中的异常跳转的，现在的虚拟机几乎都是用`异常表`来处理异常的问题。
 >
 > 可以参考R大的回答：<a href="https://www.zhihu.com/question/29056872/answer/43049999">JVM jsr和ret指令始终理解不了？returnAddress又怎么理解呢？ - RednaxelaFX的回答 - 知乎</a>
 > 
 > 关于这个问题在StackOverflow上还有一个小小讨论：<a href="https://stackoverflow.com/questions/57753497/what-does-at-returnaddress-mean-in-jvm">What does `at ReturnAddress` mean in JVM?</a> 
 
-按照官方的JVM规范，对局部变量表的定义其实是`an array of variables`，也就是数组。
+按照官方的JVM规范，对局部变量表的定义其实是`an array of variables`，也就是数组。实际实现的时候，一般
 
 局部变量表的容量规定在JVM规范中并没有明确说明，但是JVM规范仍然给出了定义，使用`Slot`进行存储，但是`Slot`的具体大小（多少字节）由虚拟机自行决定。
