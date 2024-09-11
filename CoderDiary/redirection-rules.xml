@@ -10,4 +10,8 @@
         <description>Created after removal of "ii" from 程序员日记</description>
         <accepts>ii.html</accepts>
     </rule>
+    <rule id="2c759c12">
+        <description>Created after removal of "程序员的“新闻网站”横向对比" from 我在人间当码农的日子</description>
+        <accepts>程序员的“新闻网站”横向对比.html</accepts>
+    </rule>
 </rules>
