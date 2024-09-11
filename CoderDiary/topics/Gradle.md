@@ -1,8 +1,8 @@
-# Gradle
+# 初识Gradle以及踩坑记录
 
 ## 介绍
 
-## 多模块
+## 初次使用多模块
 
 ## Gradle Wrapper
 
