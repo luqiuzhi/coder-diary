@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="life"
+                 name="秋の杂谈"
+                 start-page="人间游历.md">
+
+    <toc-element topic="一些开发方向.md"/>
+    <toc-element topic="人间游历.md"/>
+</instance-profile>
