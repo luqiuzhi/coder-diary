@@ -4,9 +4,11 @@
 
 ## 多端应用
 
-### PC网页端
+开源中国有网页端，手机App（未上架，只能下载Apk），手机网页端，微信公众号。
 
-#### 首页
+## 内容板块
+
+### 首页
 
 开源中国的内容板块其实比较偏资讯性质。首页的上半部分罗列了一些当下的热点，数量很多，但是没有分类。
 
@@ -22,7 +24,17 @@
 
 ![板块.png](板块.png)
 
-#### 资讯板块
+App是没有上架各个应用商店的，可以通过微信公众号和官网的App网址下载Apk进行安装。
+
+App的首页是广场栏，点进去上方就是一个小的头条板块，比较直观。
+
+![OSC-App-Home.jpg](OSC-App-Home.jpg) { thumbnail="true" width="300" }
+
+手机的网页端也做了适配，比较方便阅读。首页内容板块和PC网页端一致。
+
+![OSC-mobile-Home.jpg](OSC-mobile-Home.jpg) { thumbnail="true" width="300" }
+
+### 资讯板块
 
 子版块下，**资讯**板块其实就是首页第一部分的另一种展示形式。
 
@@ -38,9 +50,15 @@
 
 ![news-official.png](news-official.png)
 
-### 移动端App
+App的资讯页内容和网页端差不多。
 
-### 手机网页端
+![OSC-App-News.jpg](OSC-App-News.jpg) { thumbnail="true" width="300" }
+
+移动端网页的资讯页和App的有所不同，上方的Tab和PC端网页保持了一致。
+
+![OSC-mobile-News.jpg](OSC-mobile-News.jpg) { thumbnail="true" width="300" }
+
+***注意：开源中国移动端网页最优秀的一点，就是不需要登录就可以查看所有内容，而且点开内容后是一次性全部呈现，没有“下载App查看全文”的提示（点名批评`CSDN`）。***
 
 ## 资讯更新频率
 
