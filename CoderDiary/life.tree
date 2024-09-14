@@ -6,6 +6,9 @@
                  name="秋の杂谈"
                  start-page="人间游历.md">
 
+    <toc-element topic="20240914.md"/>
+    <toc-element topic="阿智和阿树.md"/>
+    <toc-element topic="个人特质.md"/>
     <toc-element topic="一些开发方向.md"/>
     <toc-element topic="人间游历.md"/>
 </instance-profile>
