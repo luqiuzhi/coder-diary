@@ -3,7 +3,7 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
 <instance-profile id="in"
-                 name="我在人间当码农的日子"
+                 name="我在人间写代码的日子"
                  start-page="Hello-World.md">
 
     <toc-element topic="Dubbo中的泛化调用.md"/>
