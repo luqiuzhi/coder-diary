@@ -6,13 +6,15 @@
                  name="秋の杂谈"
                  start-page="人间游历.md">
 
+    <toc-element topic="2024-9-21-大风.md"/>
+    <toc-element topic="2024-9-19-收到了offer.md"/>
     <toc-element topic="20240914.md"/>
     <toc-element topic="阿智和阿树.md"/>
     <toc-element topic="个人特质.md"/>
     <toc-element topic="一些开发方向.md"/>
     <toc-element topic="20240818.md"/>
     <toc-element topic="20240813.md"/>
-    <toc-element topic="人间游历.md"/>
     <toc-element topic="20240822.md"/>
     <toc-element topic="20240825.md"/>
+    <toc-element topic="人间游历.md"/>
 </instance-profile>

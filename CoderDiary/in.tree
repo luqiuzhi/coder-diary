@@ -6,6 +6,7 @@
                   name="我在人间写代码的日子"
                   start-page="Hello-World.md">
 
+    <toc-element topic="半导体WMS.md"/>
     <toc-element topic="Dubbo中的泛化调用.md"/>
     <toc-element topic="Gradle.md"/>
     <toc-element topic="Redis.md"/>
