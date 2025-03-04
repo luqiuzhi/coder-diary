@@ -6,6 +6,11 @@
                   name="我在人间写代码的日子"
                   start-page="Hello-World.md">
 
+    <toc-element topic="PostgreSQL中的索引长度.md"/>
+    <toc-element topic="Git：找出两个分支最近一次合并的日期.md"/>
+    <toc-element topic="迅速找出Linux的大文件.md"/>
+    <toc-element topic="个人网站的开发经历.md"/>
+    <toc-element topic="记一次线上慢SQL优化经历.md"/>
     <toc-element topic="Windows本地安装Jenkins.md"/>
     <toc-element topic="Spring注入bean的方式.md"/>
     <toc-element topic="术语集合.md">

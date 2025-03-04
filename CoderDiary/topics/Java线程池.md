@@ -60,4 +60,3 @@ public ThreadPoolExecutor(int corePoolSize, // 核心线程数
 - 线程池什么时候会创建一个新线程？
 
 我们从构造方法的参数开始分析：
-
