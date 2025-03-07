@@ -6,6 +6,8 @@
                   name="我在人间写代码的日子"
                   start-page="Hello-World.md">
 
+    <toc-element topic="Flyway结合Jenkins实现数据库变更自动化.md"/>
+    <toc-element topic="如何在一台Linux服务器上定位nginx？.md"/>
     <toc-element topic="PostgreSQL中的索引长度.md"/>
     <toc-element topic="Git：找出两个分支最近一次合并的日期.md"/>
     <toc-element topic="迅速找出Linux的大文件.md"/>
