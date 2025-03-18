@@ -6,6 +6,7 @@
                   name="我在人间写代码的日子"
                   start-page="Hello-World.md">
 
+    <toc-element topic="插件使用.md"/>
     <toc-element topic="关于autoddl工具的选型和引入.md"/>
     <toc-element topic="Mybatis-plus、Flyway以及LiquiBase的对比.md"/>
     <toc-element topic="Flyway结合Jenkins实现数据库变更自动化.md"/>
