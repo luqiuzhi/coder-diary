@@ -14,4 +14,16 @@
         <description>Created after removal of "程序员的“新闻网站”横向对比" from 我在人间当码农的日子</description>
         <accepts>程序员的“新闻网站”横向对比.html</accepts>
     </rule>
+    <rule id="17448094">
+        <description>Created after removal of "加关税" from 我在人间写代码的日子</description>
+        <accepts>加关税.html</accepts>
+    </rule>
+    <rule id="3bce847">
+        <description>Created after removal of "Jimer-core" from 框架开发日志</description>
+        <accepts>test.html</accepts>
+    </rule>
+    <rule id="69266517">
+        <description><![CDATA[Created after removal of "<dwad.md>" from 框架开发日志]]></description>
+        <accepts>dwad.html</accepts>
+    </rule>
 </rules>

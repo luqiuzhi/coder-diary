@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="a"
+                 name="AI学习"
+                 start-page="ai学习.md">
+
+    <toc-element topic="MCP.md"/>
+    <toc-element topic="向量数据库.md"/>
+    <toc-element topic="Function-Calling.md"/>
+    <toc-element topic="RAG.md"/>
+    <toc-element topic="ai学习.md"/>
+</instance-profile>

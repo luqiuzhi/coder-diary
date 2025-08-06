@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="jimmer"
+                 name="Jimmer学习笔记"
+                 start-page="jimmer学习笔记.md">
+
+    <toc-element topic="学习笔记1.md"/>
+    <toc-element topic="jimmer学习笔记.md"/>
+</instance-profile>
