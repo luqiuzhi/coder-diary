@@ -6,6 +6,11 @@
                  name="框架开发日志"
                  start-page="框架开发日志.md">
 
+    <toc-element topic="20250811.md"/>
+    <toc-element topic="20250810.md"/>
+    <toc-element topic="20250809.md"/>
+    <toc-element topic="20250808.md"/>
+    <toc-element topic="20250807.md"/>
     <toc-element topic="20250806.md"/>
     <toc-element topic="20250805.md"/>
     <toc-element topic="关键功能验证.md"/>
