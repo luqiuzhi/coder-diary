@@ -6,29 +6,18 @@
                   name="我在人间写代码的日子"
                   start-page="Hello-World.md">
 
+    <toc-element topic="Netty线程模型.md"/>
     <toc-element topic="插件使用.md"/>
     <toc-element topic="关于autoddl工具的选型和引入.md"/>
-    <toc-element topic="Mybatis-plus、Flyway以及LiquiBase的对比.md"/>
     <toc-element topic="Flyway结合Jenkins实现数据库变更自动化.md"/>
     <toc-element topic="如何在一台Linux服务器上定位nginx？.md"/>
-    <toc-element topic="PostgreSQL中的索引长度.md"/>
     <toc-element topic="Git：找出两个分支最近一次合并的日期.md"/>
     <toc-element topic="迅速找出Linux的大文件.md"/>
-    <toc-element topic="个人网站的开发经历.md"/>
-    <toc-element topic="记一次线上慢SQL优化经历.md"/>
-    <toc-element topic="Windows本地安装Jenkins.md"/>
     <toc-element topic="Spring注入bean的方式.md"/>
-    <toc-element topic="术语集合.md">
-        <toc-element topic="云原生术语.md"/>
-    </toc-element>
-    <toc-element topic="云原生系列.md"/>
-    <toc-element topic="大数据系列.md"/>
     <toc-element topic="半导体WMS.md"/>
     <toc-element topic="Dubbo中的泛化调用.md"/>
-    <toc-element topic="MapStruct.md"/>
     <toc-element topic="Gradle.md"/>
     <toc-element topic="Redis.md"/>
-    <toc-element topic="mvnd.md"/>
     <toc-element topic="Zookeeper.md"/>
     <toc-element topic="JVM的运行时内存区域.md"/>
     <toc-element topic="程序员可以看哪些资讯网站？.md">
@@ -42,27 +31,18 @@
         <toc-element topic="LAMP框架.md"/>
         <toc-element topic="SPA框架.md"/>
     </toc-element>
-    <toc-element topic="20240827.md">
+    <toc-element topic="20240826.md">
+        <toc-element topic="20240827.md"/>
         <toc-element topic="Java线程池.md"/>
     </toc-element>
-    <toc-element topic="20240826.md"/>
-    <toc-element topic="20240824.md"/>
     <toc-element topic="20240821.md"/>
+    <toc-element topic="系统容灾指标.md"/>
     <toc-element topic="20240819.md"/>
-    <toc-element topic="20240811.md"/>
     <toc-element topic="20240809.md"/>
-    <toc-element topic="20240805.md"/>
     <toc-element topic="20240804.md"/>
-    <toc-element topic="20240803.md"/>
-    <toc-element topic="20240802.md"/>
-    <toc-element topic="20240801.md"/>
-    <toc-element topic="20240731.md">
-    </toc-element>
     <toc-element topic="20240730.md"/>
-    <toc-element topic="20240729.md"/>
     <toc-element topic="20240728.md">
     </toc-element>
-    <toc-element topic="20240727.md"/>
     <toc-element topic="20240726.md"/>
     <toc-element topic="20240725.md"/>
     <toc-element topic="20240724.md"/>

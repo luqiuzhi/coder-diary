@@ -26,4 +26,90 @@
         <description><![CDATA[Created after removal of "<dwad.md>" from 框架开发日志]]></description>
         <accepts>dwad.html</accepts>
     </rule>
+    <rule id="5a17570c">
+        <description>Created after removal of "ceshi" from 我在人间写代码的日子</description>
+        <accepts>ceshi.html</accepts>
+    </rule>
+    <rule id="58705b1a">
+        <description>Created after removal of "2024.7.27 轻松愉快的周末……？" from 我在人间写代码的日子</description>
+        <accepts>20240727.html</accepts>
+    </rule>
+    <rule id="637a8806">
+        <description>Created after removal of "2024.7.29 加班的一天" from 我在人间写代码的日子</description>
+        <accepts>20240729.html</accepts>
+    </rule>
+    <rule id="1b943989">
+        <description>Created after removal of "2024.7.31 下班又上班" from 我在人间写代码的日子</description>
+        <accepts>20240731.html</accepts>
+    </rule>
+    <rule id="27757481">
+        <description>Created after removal of "2024.8.1 加班的一天" from 我在人间写代码的日子</description>
+        <accepts>20240801.html</accepts>
+    </rule>
+    <rule id="14d7d0a2">
+        <description>Created after removal of "2024.8.2 提前下班" from 我在人间写代码的日子</description>
+        <accepts>20240802.html</accepts>
+    </rule>
+    <rule id="2fa0776a">
+        <description>Created after removal of "2024.8.3 懈怠的周六" from 我在人间写代码的日子</description>
+        <accepts>20240803.html</accepts>
+    </rule>
+    <rule id="72e922bd">
+        <description>Created after removal of "2024.8.5 加班！加油！" from 我在人间写代码的日子</description>
+        <accepts>20240805.html</accepts>
+    </rule>
+    <rule id="3c99a817">
+        <description>Created after removal of "2024.8.11 Kotlin竟然还没写完……" from 我在人间写代码的日子</description>
+        <accepts>20240811.html</accepts>
+    </rule>
+    <rule id="5bc39480">
+        <description>Created after removal of "2024.8.24 限制手机使用第一天" from 我在人间写代码的日子</description>
+        <accepts>20240824.html</accepts>
+    </rule>
+    <rule id="3e764759">
+        <description>Created after removal of "mvnd" from 我在人间写代码的日子</description>
+        <accepts>mvnd.html</accepts>
+    </rule>
+    <rule id="31b28067">
+        <description>Created after removal of "日常系列——MapStruct" from 我在人间写代码的日子</description>
+        <accepts>MapStruct.html</accepts>
+    </rule>
+    <rule id="517c2837">
+        <description>Created after removal of "大数据系列" from 我在人间写代码的日子</description>
+        <accepts>大数据系列.html</accepts>
+    </rule>
+    <rule id="405a3f28">
+        <description>Created after removal of "云原生系列" from 我在人间写代码的日子</description>
+        <accepts>云原生系列.html</accepts>
+    </rule>
+    <rule id="5765f5c5">
+        <description>Created after removal of "云原生术语" from 我在人间写代码的日子</description>
+        <accepts>云原生术语.html</accepts>
+    </rule>
+    <rule id="b994693">
+        <description>Created after removal of "术语集合" from 我在人间写代码的日子</description>
+        <accepts>术语集合.html</accepts>
+    </rule>
+    <rule id="61fe9e69">
+        <description>Created after removal of "Windows本地安装Jenkins" from 我在人间写代码的日子</description>
+        <accepts>Windows本地安装Jenkins.html</accepts>
+    </rule>
+    <rule id="4d3334e4">
+        <description>Created after removal of "记一次线上慢SQL优化经历" from 我在人间写代码的日子</description>
+        <accepts>记一次线上慢SQL优化经历.html</accepts>
+    </rule>
+    <rule id="570b9f51">
+        <description>Created after removal of "个人网站的开发经历" from 我在人间写代码的日子</description>
+        <accepts>个人网站的开发经历.html</accepts>
+    </rule>
+    <rule id="11c37b">
+        <description>Created after removal of "PostgreSQL中的索引长度" from 我在人间写代码的日子</description>
+        <accepts>PostgreSQL中的索引长度.html</accepts>
+    </rule>
+    <rule id="15c06c76">
+        <description>Created after removal of "Mybatis-plus、Flyway以及Liquibase的对比（AutoDDL）" from
+            我在人间写代码的日子
+        </description>
+        <accepts>Mybatis-plus、Flyway以及LiquiBase的对比.html</accepts>
+    </rule>
 </rules>

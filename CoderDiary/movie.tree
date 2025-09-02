@@ -6,6 +6,7 @@
                  name="影视分享"
                  start-page="影视分享.md">
 
-    <toc-element topic="影视分享.md"/>
+    <toc-element topic="看懂《F1：狂飙飞车》里的赛场规则.md"/>
     <toc-element topic="《血战钢锯岭》.md"/>
+    <toc-element topic="影视分享.md"/>
 </instance-profile>
