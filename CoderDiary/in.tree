@@ -6,6 +6,12 @@
                   name="我在人间写代码的日子"
                   start-page="Hello-World.md">
 
+    <toc-element topic="缓存和数据库的一致性如何保证？有哪些方案？.md"/>
+    <toc-element topic="Kafka调优.md"/>
+    <toc-element topic="Kafka中的ACK机制.md"/>
+    <toc-element topic="死锁产生的原因以及简单实例.md"/>
+    <toc-element topic="JDK8升级到JDK17注意事项.md"/>
+    <toc-element topic="系统集成中增加接口的调用和被调用的容错性.md"/>
     <toc-element topic="Netty线程模型.md"/>
     <toc-element topic="插件使用.md"/>
     <toc-element topic="关于autoddl工具的选型和引入.md"/>
