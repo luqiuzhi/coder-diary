@@ -7,6 +7,8 @@
                   start-page="Hello-World.md">
 
     <toc-element topic="缓存和数据库的一致性如何保证？有哪些方案？.md"/>
+    <toc-element topic="深入理解Redis集群中的-MOVE和-ASK指令.md"/>
+    <toc-element topic="深入理解Java中的Object类（JDK17版本）.md"/>
     <toc-element topic="Kafka调优.md"/>
     <toc-element topic="Kafka中的ACK机制.md"/>
     <toc-element topic="死锁产生的原因以及简单实例.md"/>
