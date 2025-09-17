@@ -6,6 +6,14 @@
                   name="我在人间写代码的日子"
                   start-page="Hello-World.md">
 
+    <toc-element topic="为什么说MySQL中的WAL（Write-Ahead-Logging）策略提升了写入性能？.md"/>
+    <toc-element topic="常见数据库对四大隔离级别的设置.md"/>
+    <toc-element topic="MVCC的原理.md"/>
+    <toc-element topic="Java-new一个对象的过程.md"/>
+    <toc-element topic="Java中的AQS.md"/>
+    <toc-element topic="索引下推和索引合并.md"/>
+    <toc-element topic="ES的索引过程.md"/>
+    <toc-element topic="ES的refresh和flush的区别.md"/>
     <toc-element topic="缓存和数据库的一致性如何保证？有哪些方案？.md"/>
     <toc-element topic="深入理解Redis集群中的-MOVE和-ASK指令.md"/>
     <toc-element topic="深入理解Java中的Object类（JDK17版本）.md"/>
