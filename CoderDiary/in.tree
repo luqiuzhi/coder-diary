@@ -6,6 +6,10 @@
                   name="我在人间写代码的日子"
                   start-page="Hello-World.md">
 
+    <toc-element topic="Java中的SPI机制.md"/>
+    <toc-element topic="SQL中索引失效的场景.md"/>
+    <toc-element topic="Spring中bean的初始化流程.md"/>
+    <toc-element topic="Spring中容器初始化的流程.md"/>
     <toc-element topic="为什么说MySQL中的WAL（Write-Ahead-Logging）策略提升了写入性能？.md"/>
     <toc-element topic="常见数据库对四大隔离级别的设置.md"/>
     <toc-element topic="MVCC的原理.md"/>

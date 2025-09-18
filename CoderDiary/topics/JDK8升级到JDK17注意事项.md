@@ -64,7 +64,7 @@
 第三方库和框架也必须与 JDK 17 兼容。
 
 1.  **框架版本**
-    *   **Spring**：需要 **Spring Framework 5.3+** (推荐 6.x) 和 **Spring Boot 2.7+** (推荐 3.x) 以获得对 JDK 17 的完整支持。**注意：Spring Boot 3.x 仅支持 Jakarta EE 9+**，这意味着它无法运行在 Tomcat 9 等旧容器上。
+    *   **Spring**：需要 **Spring Framework 5.3+** (推荐 6.x) 和 **Spring Boot 2.7+** (推荐 3.x) 以获得对 JDK 17 的完整支持。**注意：Spring Boot 3.x 仅支持 Jakarta EE 9+**，这意味着它无法运行在 Tomcat 9 等旧容器上，并且Spring Boot 3.x 下已经废弃了spring.factories，自动装配的写法有所改变。
     *   **Hibernate**：需要 **Hibernate 5.6+** (推荐 6.x)。同样，新版本也切换到了 `jakarta.persistence`。
     *   **Jakarta Server Faces (JSF)**：需要 **Mojarra 4.0+**。
     *   **其他库**：检查像 Apache Commons, Log4j 2, SLF4J, Jackson, Gson 等常用库的最新版本，它们通常都兼容。
