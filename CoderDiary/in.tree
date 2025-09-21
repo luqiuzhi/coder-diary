@@ -6,6 +6,7 @@
                   name="我在人间写代码的日子"
                   start-page="Hello-World.md">
 
+    <toc-element topic="MySQL中执行一次数据库查询的完整流程.md"/>
     <toc-element topic="Java中的SPI机制.md"/>
     <toc-element topic="SQL中索引失效的场景.md"/>
     <toc-element topic="Spring中bean的初始化流程.md"/>
