@@ -112,4 +112,8 @@
         </description>
         <accepts>Mybatis-plus、Flyway以及LiquiBase的对比.html</accepts>
     </rule>
+    <rule id="3300f2f6">
+        <description>Created after removal of "下雨的周日" from 我在人间写代码的日子</description>
+        <accepts>20240728.html</accepts>
+    </rule>
 </rules>
