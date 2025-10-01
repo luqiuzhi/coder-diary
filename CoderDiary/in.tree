@@ -6,6 +6,7 @@
                   name="我在人间写代码的日子"
                   start-page="Hello-World.md">
 
+    <toc-element topic="RabbitMQ如何保证最终一致性？.md"/>
     <toc-element topic="MySQL中执行一次数据库查询的完整流程.md"/>
     <toc-element topic="MySQL中为什么like-xx-会使索引失效（详细解答版）.md"/>
     <toc-element topic="Java中的SPI机制.md"/>
@@ -19,6 +20,7 @@
     <toc-element topic="Java中的AQS.md"/>
     <toc-element topic="索引下推和索引合并.md"/>
     <toc-element topic="ES的索引过程.md"/>
+    <toc-element topic="详解Elasticsearch的检索过程.md"/>
     <toc-element topic="ES的refresh和flush的区别.md"/>
     <toc-element topic="缓存和数据库的一致性如何保证？有哪些方案？.md"/>
     <toc-element topic="深入理解Redis集群中的-MOVE和-ASK指令.md"/>

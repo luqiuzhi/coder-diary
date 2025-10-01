@@ -1,4 +1,4 @@
-# MVCC的原理
+# 数据库中MVCC的原理
 
 MVCC(Multi-Version Concurrency Control)，即多版本并发控制，是数据库管理系统（DBMS）中的一个并发控制策略，用于解决并发访问冲突问题。
 
