@@ -6,6 +6,8 @@
                   name="我在人间写代码的日子"
                   start-page="Hello-World.md">
 
+    <toc-element topic="MES系统核心功能.md"/>
+    <toc-element topic="DDD实践以及代码架构.md"/>
     <toc-element topic="RabbitMQ如何保证最终一致性？.md"/>
     <toc-element topic="MySQL中执行一次数据库查询的完整流程.md"/>
     <toc-element topic="MySQL中为什么like-xx-会使索引失效（详细解答版）.md"/>
