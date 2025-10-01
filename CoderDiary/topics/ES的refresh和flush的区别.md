@@ -102,20 +102,20 @@ index.translog.flush_threshold_ops: "unlimited"
 
 ```mermaid
 flowchart TD
-    A[文档索引请求] --> B[写入内存缓冲区<br>Index Buffer]
-    B --> C[写入事务日志 Translog<br>确保持久性]
+    A[文档索引请求] --> B[写入内存缓冲区<br/>Index Buffer]
+    B --> C[写入事务日志 Translog<br/>确保持久性]
     
     C --> D{Refresh 触发?}
-    D -- 是 --> E[创建新Lucene段<br>写入文件系统缓存]
+    D -- 是 --> E[创建新Lucene段<br/>写入文件系统缓存]
     E --> F[📚 文档可被搜索]
     D -- 否 --> B
     
     C --> G{Flush 触发?}
-    G -- 是 --> H[将文件系统缓存中的段<br>持久化到物理磁盘]
-    H --> I[清空Translog<br>创建新提交点]
+    G -- 是 --> H[将文件系统缓存中的段<br/>持久化到物理磁盘]
+    H --> I[清空Translog<br/>创建新提交点]
     G -- 否 --> C
     
-    F --> J[🔒 数据仍在内存中<br>断电可能丢失]
+    F --> J[🔒 数据仍在内存中<br/>断电可能丢失]
     I --> K[💾 数据安全持久化]
 ```
 

@@ -24,23 +24,23 @@ flowchart TD
     
     subgraph C [主分片节点处理]
         direction TB
-        D[文档验证与分析<br>（构建倒排索引结构）] --> E[写入Translog<br>（确保持久化）]
-        E --> F[写入Index Buffer<br>（内存缓冲区）]
+        D[文档验证与分析<br/>（构建倒排索引结构）] --> E[写入Translog<br/>（确保持久化）]
+        E --> F[写入Index Buffer<br/>（内存缓冲区）]
     end
 
-    F --“刷新”触发（默认1秒/次）--> G[创建新的Lucene段<br>并写入文件系统缓存]
+    F --“刷新”触发（默认1秒/次）--> G[创建新的Lucene段<br/>并写入文件系统缓存]
     G --> H[文档可被搜索]
     
-    C --“同步”复制请求--> I[副本分片节点<br>重复相同处理过程]
-    I --> J{所有副本分片<br>是否成功?}
+    C --“同步”复制请求--> I[副本分片节点<br/>重复相同处理过程]
+    I --> J{所有副本分片<br/>是否成功?}
 
     J --是--> K[协调节点向客户端返回成功]
     
     subgraph L [后台异步处理]
         direction TB
-        M[段合并<br>优化段数量] 
-        N[Translog落盘<br>（默认5秒/次）]
-        M & N --> O[创建提交点<br>并清理旧Translog]
+        M[段合并<br/>优化段数量] 
+        N[Translog落盘<br/>（默认5秒/次）]
+        M & N --> O[创建提交点<br/>并清理旧Translog]
     end
 
     H & K --> L
