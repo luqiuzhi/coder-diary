@@ -6,6 +6,8 @@
                   name="我在人间写代码的日子"
                   start-page="Hello-World.md">
 
+    <toc-element topic="Java8为什么取消了Java7中的永久代？.md"/>
+    <toc-element topic="Java中的标量替换技术.md"/>
     <toc-element topic="DDD实践以及代码架构.md"/>
     <toc-element topic="MES系统核心功能.md">
     </toc-element>

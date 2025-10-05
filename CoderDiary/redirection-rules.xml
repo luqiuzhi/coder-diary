@@ -116,4 +116,8 @@
         <description>Created after removal of "下雨的周日" from 我在人间写代码的日子</description>
         <accepts>20240728.html</accepts>
     </rule>
+    <rule id="73f6c760">
+        <description>Created after removal of "Java8为什么取消了Java7中的永久代？" from AI学习</description>
+        <accepts>Java8为什么取消了Java7中的永久代？.html</accepts>
+    </rule>
 </rules>
