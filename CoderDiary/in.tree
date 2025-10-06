@@ -75,4 +75,5 @@
     <toc-element topic="20240724.md"/>
     <toc-element topic="20240723.md"/>
     <toc-element topic="Hello-World.md"/>
+    <toc-element topic="深入Kafka：什么是rebalance机制？.md"/>
 </instance-profile>
