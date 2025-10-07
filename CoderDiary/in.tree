@@ -32,6 +32,7 @@
     <toc-element topic="深入理解Java中的Object类（JDK17版本）.md"/>
     <toc-element topic="Kafka调优.md"/>
     <toc-element topic="Kafka中的ACK机制.md"/>
+    <toc-element topic="深入Kafka：什么是rebalance机制？.md"/>
     <toc-element topic="死锁产生的原因以及简单实例.md"/>
     <toc-element topic="JDK8升级到JDK17注意事项.md"/>
     <toc-element topic="系统集成中增加接口的调用和被调用的容错性.md"/>
@@ -75,5 +76,4 @@
     <toc-element topic="20240724.md"/>
     <toc-element topic="20240723.md"/>
     <toc-element topic="Hello-World.md"/>
-    <toc-element topic="深入Kafka：什么是rebalance机制？.md"/>
 </instance-profile>
