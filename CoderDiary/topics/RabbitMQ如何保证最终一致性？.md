@@ -121,7 +121,11 @@ channel.basicConsume("order.queue", false, (consumerTag, delivery) -> {
 });
 ```
 
----
+> 注意，在 Kafka 中，消费者没有ack机制，取而代之是 `offset` 的提交机制。分为自动提交和手动提交两种模式。
+> 默认情况下，Kafka是自动提交offset的，但可以通过设置 `enable.auto.commit` 为false来关闭自动提交，并使用 `consumer.commitSync()` 或 `consumer.commitAsync()` 手动提交。
+> 自动提交就相当于 RabbitMQ 的 `autoAck`。
+
+{style="note"}
 
 ## 三、高级模式与最佳实践
 

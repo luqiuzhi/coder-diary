@@ -14,6 +14,7 @@
     <toc-element topic="RabbitMQ如何保证最终一致性？.md"/>
     <toc-element topic="MySQL中执行一次数据库查询的完整流程.md"/>
     <toc-element topic="MySQL中为什么like-xx-会使索引失效（详细解答版）.md"/>
+    <toc-element topic="MySQL锁机制详解.md"/>
     <toc-element topic="Java中的SPI机制.md"/>
     <toc-element topic="SQL中索引失效的场景.md"/>
     <toc-element topic="Spring中bean的初始化流程.md"/>
@@ -31,8 +32,10 @@
     <toc-element topic="深入理解Redis集群中的-MOVE和-ASK指令.md"/>
     <toc-element topic="深入理解Java中的Object类（JDK17版本）.md"/>
     <toc-element topic="Kafka调优.md"/>
-    <toc-element topic="Kafka中的ACK机制.md"/>
+    <toc-element topic="深入理解消息队列：消息语义.md"/>
     <toc-element topic="深入Kafka：什么是rebalance机制？.md"/>
+    <toc-element topic="Kafka动态为Topic增加分区.md"/>
+    <toc-element topic="消息队列基础概念：队列模型和发布-订阅模型.md"/>
     <toc-element topic="死锁产生的原因以及简单实例.md"/>
     <toc-element topic="JDK8升级到JDK17注意事项.md"/>
     <toc-element topic="系统集成中增加接口的调用和被调用的容错性.md"/>
@@ -56,7 +59,9 @@
     </toc-element>
     <toc-element topic="Kotlin中的空指针安全.md"/>
     <toc-element topic="Kotlin中的面向对象.md"/>
-    <toc-element topic="GraphQL.md"/>
+    <toc-element topic="GraphQL.md">
+        <toc-element topic="Kafka中的ACK机制.md"/>
+    </toc-element>
     <toc-element topic="20240829.md">
         <toc-element topic="LAMP框架.md"/>
         <toc-element topic="SPA框架.md"/>
