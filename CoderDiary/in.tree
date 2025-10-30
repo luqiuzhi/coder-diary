@@ -43,6 +43,7 @@
     <toc-element topic="JDK8升级到JDK17注意事项.md"/>
     <toc-element topic="系统集成中增加接口的调用和被调用的容错性.md"/>
     <toc-element topic="Netty线程模型.md"/>
+    <toc-element topic="Redis的持久化策略.md"/>
     <toc-element topic="插件使用.md"/>
     <toc-element topic="关于autoddl工具的选型和引入.md"/>
     <toc-element topic="Flyway结合Jenkins实现数据库变更自动化.md"/>
